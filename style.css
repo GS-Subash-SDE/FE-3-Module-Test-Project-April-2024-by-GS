@@ -177,6 +177,10 @@
           border-bottom: 1px solid white;
           gap: 5px;
 
+          .curPrice,.changePrice{
+            text-align: center;
+          }
+
           td:nth-child(1) {
             gap: 2px;
 

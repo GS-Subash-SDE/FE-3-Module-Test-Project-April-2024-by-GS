@@ -44,8 +44,8 @@ function loopObject(obj) {
   row.classList.add('row');
   row.innerHTML = `<th>Name</th>
   <th class="text-left">Symbol</th>
-  <th class="text-right">Current price</th>
-  <th class="text-right">Total volume</th>
+  <th class="text-right curPrice">Current price</th>
+  <th class="text-right changePrice">Total volume</th>
   <th>Price change %</th>
   <th>MKT Cap</th>
   `;
